@@ -60,7 +60,7 @@
 <section id="hero" class="d-flex flex-column justify-content-center">
   <div class="container" data-aos="zoom-in" data-aos-delay="100">
     <h1>Nikhil Nakhate</h1>
-    <p>I'm <span class="typed" data-typed-items="Roboticist, Entrepreneur, Musician!"></span></p>
+    <p>I'm <span class="typed" data-typed-items="Roboticist, Researcher, Musician!"></span></p>
     <div class="social-links">
       <a href="https://twitter.com/NikhilNakhate" class="twitter"><i class="bx bxl-twitter"></i></a>
       <a href="https://www.facebook.com/nikhil.nakhate" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -88,18 +88,22 @@
           <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content">
-          <h3>Roboticist/Deep Learning researcher</h3>
+          <h3>Autonomous Driving & Robotics Team Lead</h3>
           <p class="fst-italic">
-  Autonomous Robots | Computer Vision | Deep Learning | Structured Light
+  Autonomous Driving | Multimodal Perception | Applied ML Research | Robotics
           </p>
 
           <div class="row">
             <div class="col">
             <p>
-              I am Machine Learning researcher working on multi-cam multi-task learning models. I am a passionate roboticist on a quest
-              to find newer and better ways to build robots that will help humans automate dangerous, mundane and tedius tasks. 
-              I currently work in the autonomous driving perception team at Lucid motors. I have previously worked at Tesla autopilot
-              and a robot barista startup, Nourish.
+              I lead the dynamic semantic mapping team at Cruise which is part of the end to end driving model
+              to raise accuracy across diverse geolocations. Previously, I steered Lucid Motors' perception
+              roadmap spanning 3D detection, lane understanding, occupancy mapping, and trajectory prediction for autonomous driving.
+              My journey has also included robotics and vision roles at Nourish Technology, Tesla Autopilot
+            </p>
+            <p>
+              I hold an M.S. in Computer Science (specializing in computer vision) from the University of Wisconsin-Madison and a B.Tech from NIT Calicut. My research
+              explores structured light and autonomous systems.
             </p>
             </div>
           </div>
@@ -281,26 +285,74 @@
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
-            <h4>Technical Specialist (Staff Engineer), Perception Algorithms</h4>
-            <h5>December 2020 - Present</h5>
-            <p><em>Lucid Motors, Bay Area, CA</em></p>
+            <h4>Team Lead, Sr. Applied Research Scientist II</h4>
+            <h5>Nov 2023 - Present</h5>
+            <p><em>Cruise, San Francisco, CA</em></p>
             <ul>
-              <li>Project lead: Multi-task learning model framework, 3D lane detection</li>
-              <li>Prototyped and deployed various monocular 3D object detection models</li>
-              <li>Lane classification for multiple lane detection models</li>
-              <li>Multi-agent trajectory prediction using VAE and Transformer architecture</li>
-              <li>Tooling: Developed tools for data analysis and metrics</li>
+              <li>Lead a 7-person team delivering dynamic semantic maps with multi-modal BEV prediction for lanes, drivable areas, and traffic infrastructure.</li>
+              <li>Fine-tune foundation and multimodal LLMs like GPT-4o to strengthen scene understanding and remote assistance workflows.</li>
+              <li>Train visual language models (e.g., LLaVA) for spatial reasoning across multi-camera views.</li>
+              <li>Design multi-task detection pipelines that raise small object accuracy by 20% in production evaluations.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Team Lead, Staff Engineer, Perception</h4>
+            <h5>Dec 2020 - Oct 2023</h5>
+            <p><em>Lucid Motors, Newark, CA</em></p>
+            <ul>
+              <li>Drove the perception roadmap covering 3D detection, lane understanding, occupancy mapping, and trajectory prediction.</li>
+              <li>Built multi-modal BEV occupancy grid segmentation and ground topology pipelines using LiDAR, GPS, and IMU.</li>
+              <li>Formulated multi-task learning strategies that combined 3D object and lane detection, boosting monocular 3D accuracy 20x.</li>
+              <li>Deployed 3D/2D lane detection and classification for complex topologies using anchored, anchor-free, and ConvLSTM methods.</li>
+              <li>Mentored engineers and interns on ML modeling practices and supporting data infrastructure.</li>
             </ul>
           </div>
           <div class="resume-item">
             <h4>Robotics Software Engineer</h4>
-            <h5>December 2019 - October 2020</h5>
-            <p><em>Nourish Technology, Bay Area, CA</em></p>
+            <h5>Dec 2019 - Oct 2020</h5>
+            <p><em>Nourish Technology, Berkeley, CA</em></p>
             <ul>
-              <li>Object detection/anomaly prediction for gantry robot</li>
-              <li>Environment mapping for a robot arm in a distributed robotic system</li>
-              <li>Work on a simulator project using Unity/Gazebo (ROS)</li>
+              <li>Modeled coffee shop environments so the robot barista could localize and navigate safely.</li>
+              <li>Developed object detection and anomaly monitoring for the gantry robot to flag spills and inconsistencies.</li>
+              <li>Prototyped robot arm trajectories within Unity and Gazebo (ROS) to validate operations.</li>
             </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Software Engineer</h4>
+            <h5>Jun 2018 - Dec 2019</h5>
+            <p><em>Bloomberg, New York, NY</em></p>
+            <ul>
+              <li>Engineered multi-objective query optimization algorithms for financial analytics tooling.</li>
+              <li>Built the quant query parser and computational graph components powering portfolio workflows.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Autopilot Vision Intern</h4>
+            <h5>Jun 2017 - Aug 2017</h5>
+            <p><em>Tesla, Palo Alto, CA</em></p>
+            <ul>
+              <li>Prototyped monocular 3D object detection models with Inception and ResNet backbones under Andrej Karpathy.</li>
+              <li>Crafted lane segmentation pipelines blending FCNN-based deep learning with CRF refinements.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Founder &amp; CEO</h4>
+            <h5>Jul 2014 - Mar 2016</h5>
+            <p><em>Ontwerp, Bengaluru, India</em></p>
+            <ul>
+              <li>Launched customer and merchant Android applications while leading sales and marketing efforts.</li>
+              <li>Co-developed the commerce backend on Google App Engine to support growth.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Member of Technical Staff</h4>
+            <h5>Jul 2013 - Jun 2014</h5>
+            <p><em>VMware, Bengaluru, India</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>Software Engineer</h4>
+            <h5>Jun 2012 - Jul 2013</h5>
+            <p><em>Deloitte, Bengaluru, India</em></p>
           </div>
         </div>
       </div>
@@ -644,35 +696,6 @@
   <!-- End Contact Section -->
 
 </main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
-<footer id="footer">
-  <div class="container">
-    <h3>Nikhil Nakhate</h3>
-    <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p> -->
-    <div class="social-links">
-      <a href="https://twitter.com/NikhilNakhate" class="twitter"><i class="bx bxl-twitter"></i></a>
-      <a href="https://www.facebook.com/nikhil.nakhate" class="facebook"><i class="bx bxl-facebook"></i></a>
-      <a href="https://www.linkedin.com/in/nikhilnakhate" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      <a href="https://www.instagram.com/nikx_tape" class="instagram"><i class="bx bxl-instagram"></i></a>
-      <a href="https://github.com/nikhil-nakhate" class="github"><i class="bx bxl-github"></i></a>
-      <a href="https://www.youtube.com/@nikx_tape" class="youtube"><i class="bx bxl-youtube"></i></a>
-      <a href="https://medium.com/@nikhil.nakhate" class="medium"><i class="bx bxl-medium"></i></a>
-
-      
-    </div>
-   <div class="copyright">
-     &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-   </div>
-   <div class="credits">
-<!--      &lt;!&ndash; All the links in the footer should remain intact. &ndash;&gt;-->
-<!--      &lt;!&ndash; You can delete the links only if you purchased the pro version. &ndash;&gt;-->
-<!--      &lt;!&ndash; Licensing information: [license-url] &ndash;&gt;-->
-<!--      &lt;!&ndash; Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ &ndash;&gt;-->
-     Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-   </div>
-  </div>
-</footer><!-- End Footer -->
 
 <div id="preloader"></div>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
